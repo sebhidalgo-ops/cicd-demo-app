@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing dependencies"
+      - if [ -f package.json ]; then npm ci || npm install; fi
+  build:
+    commands:
+      - echo "Running tests"
+      - if [ -f package.json ]; then npm test; fi
+      - echo "Preparing artifact"
+      - mkdir -p artifact
+      - cp -r * artifact/ || true
+artifacts:
+  files:
+    - '**/*'
+  base-directory: artifact
