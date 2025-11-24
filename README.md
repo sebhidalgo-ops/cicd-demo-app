@@ -20,6 +20,12 @@ A simple Node.js web application demonstrating continuous integration and contin
 
 ---
 
+<img width="1912" height="941" alt="image" src="https://github.com/user-attachments/assets/32497eff-db50-4a06-abd2-17fb52ca04a2" />
+
+<img width="1919" height="978" alt="image" src="https://github.com/user-attachments/assets/59a3d9bd-4ee8-4d7d-94ff-3e792fd0402b" />
+
+
+
 ## Overview
 
 This is a demonstration application built with Node.js and Express that showcases a basic CI/CD pipeline. The application displays a simple "Hello from Elastic Beanstalk CI/CDlK pipeline" message and is configured for automated deployment to AWS Elastic Beanstalk.
